@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💌</title>
+    <style>
+        body {
+            background-color: #ffe6f2;
+            font-family: 'Times New Roman', serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            position: relative;
+            width: 90vw;
+            max-width: 600px;
+            height: 80vh;
+            max-height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .envelope {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: #ff99cc;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            overflow: hidden;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        .flap {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 40%;
+            background: #ff6699;
+            clip-path: polygon(0 0, 100% 0, 50% 100%);
+            transition: 0.5s;
+        }
+        .heart-sticker {
+            position: absolute;
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 60px;
+            height: 60px;
+            background: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+        }
+        .heart-sticker::before {
+            content: '\2665';
+            font-size: 28px;
+            color: white;
+        }
+        .letter {
+            width: 90%;
+            height: 80%;
+            background: white;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            transform: translateY(100%);
+            transition: 0.5s;
+            overflow-y: auto;
+        }
+        .message {
+            font-size: 20px;
+            color: black;
+            white-space: pre-line;
+            text-align: left;
+        }
+        .polaroid {
+            position: absolute;
+            width: 200px;
+            height: 250px;
+            background: white;
+            padding: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .polaroid img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .polaroid.left {
+            left: -220px;
+        }
+        .polaroid.right {
+            right: -220px;
+        }
+        .open .flap {
+            transform: rotateX(180deg);
+        }
+        .open .letter {
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="polaroid left">
+            <img src="IMG_20250213_162536_378.jpg" alt="Memory 1">
+            <p> 💖</p>
+        </div>
+        <div class="envelope" onclick="openLetter()">
+            <div class="flap"></div>
+            <div class="heart-sticker"></div>
+            <div class="letter">
+                <p class="message">hi faith sanchez, first and foremost (huey!) I would like to thank you for everything you've given me throughout our relationship, I really appreciate every gift, every words, every hug, every kiss (🫣) everything like lahat. You know naman na di ako ma-letter na tao sa kahit sinong minamahal ko sa buhay kaya bare with me ☺️ but yun nga dahil love kita and gusto ko na malaman mo kung gaano ako ka grateful sayo kaya naman sinulat ko itong lihim na ito (woah). 
+                
+                
+			    Tayo'y bumalik sa Feb 14, valentines day - that was our first valentines together at ikaw una kong valentine date syempre ikaw una kong gf (sheesh) but yeah and ikaw una kong tao binigyan ng flowers buong buhay ko and you're also the first person that gave me a bouquet of flowers which is an amazing thing and experience for me. To be honest I never thought of receiving flowers from anyone but you came soooo I just wanna say thank you for that, you actually made my day!! Sa gifts mo that day, yung cookies na napakasarap tas yung matchy rings WHICH I REALLY LIKED at syempre yung mismong surprise kasi di ko ineexpect yun so I would say na surprise talaga ako 🫨. That day was so memorable to me and I'll definitely remember that for the rest of my life, thank you for that I am super grateful for everything.My letter that day was not good or whatsoever but THEN I read your letter for me na muntikan na magiyakan (ANG OA) but yun nga nagulat ako sa part na pinagdasal mo relasyon natin sa misa di ko alam kung maniniwala ba ako o hindi eh but then I remembered that I also prayed for us during the Christmas mass, it was a shocking moment for me to pray for my love relationship to someone but yeah I guess dahil ikaw yung biggest risk na kinuha ko buong buhay ko and I needed guidance from the Lord and I think natupad naman pinagdasal ko so far AYUN with that I just wanted to show my appreciation nung araw na yan sayo with this letter hehe.
+				
+                next topic ! 😊 2nd monthsary na kasi natin, umabot po tayo congratulations 🎉  pero yeah I'm really grateful and happy na I get to celebrate this kind of thing with you 💗 I really hope to spend and celebrate more days with you (sana di ka mapagod sakin 🙏🏻) thank you for always understanding me and my problems 😁 I'm really thankful talaga na iniintindi mo ko everytime I HOPE NA DI KA MAPAPAGOD SA AKING UGALI !!!!! I also want to say sorry if sometimes sadyang napapangunahan ako ng iba't ibang emosyon 😑 I'M REALLY THANKFUL SAYO FAITH AND I HOPE YOU KNOW THAT !!!!!!!!!!!!!!!!!! thank you for always staying with me kahit ako'y makulit, maingay, indecisive, iyakin, madaming mood swings, di namamansin, selosa pa (haysss), nangiistorbo, di nagaaral, pasaway, tinutulugan ka, mahilig mangspam, tawa ng tawa (🤪), unserious kauspin, NAGSESELOS LAGI LAGI (nasabi ko na pero isa pa) at marami pang iba ikaw nalang magsabi thanks, ANDAMING MALI SAKIN pero nakakayanan mo ko kaya thank you na natitiis mo ko heehehehehhe 😏 I LOVE YOU FAITH NO MATTER WHAT 🤍 to moreeeee months with you and I really hope you'll always love me and care for me tysm! 💝 
+                
+                Happy monthsaryy, baby! I'll always love you🤍🤍🤍
+                by Alea</p>
+            </div>
+        </div>
+        <div class="polaroid right">
+            <img src="IMG_20250213_162553_097.jpg" alt="Memory 2">
+            <p>2/13/25 💕</p>
+        </div>
+    </div>
+    
+    <script>
+        function openLetter() {
+            document.querySelector(".envelope").classList.toggle("open");
+        }
+    </script>
+</body>
+</html>
